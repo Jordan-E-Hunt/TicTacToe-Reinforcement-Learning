@@ -2,7 +2,7 @@
 An unbeatable Q-Learning agent trained to solve the Tic-Tac-Toe state space through self-play and stochastic exploration.
 
 <div align="center">
-  <video src="assets/demo.mp4" width="400" controls muted autoplay loop>
+  <video src="https://github.com/user-attachments/assets/96770663-0c1d-48b7-9036-4d5372c49e73" width="400" controls muted autoplay loop>
     Your browser does not support the video tag.
   </video>
 </div>
