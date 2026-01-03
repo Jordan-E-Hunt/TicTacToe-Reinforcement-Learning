@@ -1,7 +1,11 @@
 # Tic-Tac-Toe Reinforcement Learning
 An unbeatable Q-Learning agent trained to solve the Tic-Tac-Toe state space through self-play and stochastic exploration.
 
-![AI Gameplay Demo](assets/demo.mp4)
+<div align="center">
+  <video src="assets/demo.mp4" width="400" controls muted autoplay loop>
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ## 🚀 Overview
 This project implements a **Tabular Q-Learning** agent that treats Tic-Tac-Toe as a Finite Markov Decision Process (MDP). Through 100,000 episodes of training, the agent transitions from random exploration to an optimal policy, eventually reaching a **Nash Equilibrium** where it is mathematically impossible to defeat.
