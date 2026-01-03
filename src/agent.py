@@ -1,5 +1,6 @@
-from src.environment import TicTacToe
-from src.agent import QLearningAgent
+import numpy as np
+import pickle
+import random
 
 class QLearningAgent:
   def __init__(self, alpha=0.2, epsilon=1.0,
@@ -54,4 +55,5 @@ class QLearningAgent:
 
  def load_policy(self, filename="policy.pkl"):
     with open(filename, 'rb') as f:
-      self.q_table = pickle.load(f)                   
+      self.q_table = pickle.load(f)
+ 
