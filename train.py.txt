@@ -1,6 +1,6 @@
-import numpy as np
-import pickle
-
+from src.environment import TicTacToe
+from src.agent import QLearningAgent
+import random
 
 def train(num_episodes, alpha = 0.2, epsilon = 1.0, discount = 0.95):
   agent = QLearningAgent(alpha, epsilon, discount)
@@ -54,7 +54,7 @@ def train(num_episodes, alpha = 0.2, epsilon = 1.0, discount = 0.95):
     agent.decay_epsilon()
     agent.decay_alpha(i, num_episodes, alpha) 
 
-  return agent
+  return agent                   
 
 #Train the Q-learning agent
 agent = train(num_episodes= 100000, alpha=0.2 , epsilon= 1.0, discount=1.0)
